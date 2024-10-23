@@ -1,0 +1,42 @@
+@media screen and (max-width: 1000px){
+    .navbar{
+        display: none;
+    }
+    .hamburger-nav{
+        display: flex;
+    }
+    .menu-links{
+        display: none;
+    }
+    .home{
+        display: block;
+    }
+    .hero{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 3vh;
+    }
+    .hero img{
+        display: flex;
+        height: 350px;
+        
+    }
+    .btns{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width: 1000px) {
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background-color: white; /* Ensure background remains white on larger screens */
+    }
+
+    .menu-icon {
+        display: none;
+    }
+}
