@@ -26,7 +26,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 17vh;
-    
+   
 }
 .options {
     gap: 4rem;
@@ -145,7 +145,7 @@ a{
 }
 
 .typing {
-    font-size: 28px;
+    font-size: 20px;
 
 }
 
@@ -186,4 +186,9 @@ a{
 }
 .bouncei:hover{
     display: flex;
+}
+.contact {
+    height: 100vh;
+    text-align: center;
+    align-content: center;
 }
