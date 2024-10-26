@@ -192,3 +192,6 @@ a{
     text-align: center;
     align-content: center;
 }
+.hero img{
+    height: 350px;
+}
